@@ -1,0 +1,113 @@
+
+
+body{
+    background: #00091d;
+    color: white;
+     
+  }
+
+
+  div{
+    
+
+    code{
+      color: black;
+      font-family: 'averta-font';
+      font-size: 1.2rem;
+      
+      }
+
+
+    .estiloCarrousel{
+    background-color: black;
+    opacity: 0.8;
+   
+    }
+
+    .letraCarrousel{
+    color: white;
+    }
+    
+    h5{ 
+    color: #cf2bd0 ;
+    font-family: 'averta-family';
+    text-decoration: underline;
+    }
+  
+    }
+    
+
+    .imagenTrisquel{
+    margin-bottom: 1.5%;
+    }
+
+/* Fin Margen LOGO HISTORIA TRISQUEL*/
+
+
+
+.tituloMapa {
+  text-decoration: underline;
+  font-size: 20px;
+  color: #cf2bd0;
+  font-family: 'Rubik', sans-serif;
+  margin: 15px 10px 15px 5px;
+}
+
+/*Fin Mapa*/
+
+/*Acordion*/
+.fondoAccordion{
+  background-color: #00050e;
+  }
+  
+  .buttonAccordion{
+  background-color: #00050e ;
+  color: #cf2bd0 ;
+  }
+  
+  .textoAccordion{
+  color: white;
+  }
+  /*Fin Acordion*/
+  
+  
+  /*Carrousel*/
+  .flexCarrousel{
+    display: flex;
+    justify-content: center;
+    }
+  
+
+/*Operadores*/
+ $ancho: 50%;
+
+  div div img{
+  height: 30rem;
+  width: $ancho* 2;
+  
+  }
+
+
+  
+  /*Fin Carrousel*/
+
+
+  /*Efecto Logo*/
+.logoTrisquel:hover{
+  animation: 3s;
+  animation-name: efectoLogo;
+  }
+  
+  @keyframes efectoLogo{
+  
+  
+  50%{
+  width: 25%;
+  }
+  
+  100%{
+  transform: rotate(360deg);
+  }
+  
+  }
+  /* Fin Efecto Logo*/

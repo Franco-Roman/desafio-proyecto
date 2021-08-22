@@ -1,0 +1,28 @@
+/*Mixin mapa*/
+
+
+@mixin mapa{
+    width: $ancho*2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+	margin-bottom: 10%;
+	height: 20rem;
+}
+
+
+.mapa{
+@include mapa;
+}
+
+@mixin reseñaClientesEstilo {
+    display: flex;
+	align-items: center;
+	border: white solid 3px;
+	padding: 10px;
+}
+
+/*Mixin reseña clientes*/
+.reseñaClientes{
+@include reseñaClientesEstilo;
+}

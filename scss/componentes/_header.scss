@@ -1,0 +1,39 @@
+/*Configuracion Nav Menu*/
+
+/*Diseño menu*/
+.menuCss {
+    background: $coloresFondos;
+    font-size: 120%;
+}
+
+/*Diseño menu*/
+
+
+/*Logo Trisquel Imagen*/
+
+.logoTrisquel {
+    width: 45%;
+    margin-left: 15%;
+}
+
+/*Fin Logo Trisquel Imagen*/
+
+/*Botones Menu*/
+
+.botonMenu {
+    border: 2px solid $coloresTitulos;
+    border-radius: 25px;
+    padding: 5%;
+    margin: 1% 1% 1% 1%;
+}
+
+/*Fin Botones Menu*/
+
+/*Clase provisoria arreglar centrado de menu*/
+.arregloMenu{
+    margin-left: 19%;
+    }
+    /*Fin Clase provisoria arreglar centrado de menu*/
+    
+
+/*Fin Configuracion Nav Menu*/

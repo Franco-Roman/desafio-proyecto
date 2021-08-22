@@ -1,0 +1,28 @@
+
+@import 'colores';
+
+$fontSize:
+1.2rem,
+18px,
+20px,
+25px,
+30px;
+
+
+/*Fuente incrustada*/
+
+@font-face {
+	font-family: 'averta-font';
+	src: url("../fuentes/AvertaDemoPECuttedDemo-Regular.otf");
+}
+
+/*Fuentes titulos*/
+
+/*H1 H2 H3 */
+
+h1,h3{
+	margin: 1% auto;
+	text-decoration: underline;
+	color: $coloresTitulos;
+
+}
