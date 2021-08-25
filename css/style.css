@@ -38,13 +38,16 @@ div code {
   font-family: "averta-font";
   font-size: 1.2rem;
 }
+
 div .estiloCarrousel {
   background-color: black;
   opacity: 0.8;
 }
+
 div .letraCarrousel {
   color: white;
 }
+
 div h5 {
   color: #cf2bd0;
   font-family: "averta-family";
@@ -287,5 +290,7 @@ footer p {
 }
 
 /*Fin Reseteo base*/
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.scss.map */
 
 /*# sourceMappingURL=style.css.map */
