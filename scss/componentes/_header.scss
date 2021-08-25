@@ -11,18 +11,21 @@
 
 /*Logo Trisquel Imagen*/
 
-.logoTrisquel {
+
 
     @media screen and (min-width: 640px)
     {
+    .logoTrisquel{
     width: 45%;
     margin-left: 15%;
-    }
+    } }
+
     @media screen and (max-width: 640px) 
-    {
+    { 
+    .logoTrisquel{
     margin-left: 40%; 
-    } 
-    }
+    } } 
+    
 
 
 /*Fin Logo Trisquel Imagen*/
