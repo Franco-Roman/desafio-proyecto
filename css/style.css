@@ -4,6 +4,11 @@
   font-family: "averta-font";
   src: url("../fuentes/AvertaDemoPECuttedDemo-Regular.otf");
 }
+/*Fuente incrustada*/
+@font-face {
+  font-family: "averta-font";
+  src: url("../fuentes/AvertaDemoPECuttedDemo-Regular.otf");
+}
 /*Fuentes titulos*/
 /*H1 H2 H3 */
 h1, h3 {
@@ -38,16 +43,13 @@ div code {
   font-family: "averta-font";
   font-size: 1.2rem;
 }
-
 div .estiloCarrousel {
   background-color: black;
   opacity: 0.8;
 }
-
 div .letraCarrousel {
   color: white;
 }
-
 div h5 {
   color: #cf2bd0;
   font-family: "averta-family";
@@ -148,11 +150,19 @@ div div img {
 
 /*Diseño menu*/
 /*Logo Trisquel Imagen*/
-.logoTrisquel {
-  width: 45%;
-  margin-left: 15%;
+/*Mobile*/
+@media only screen and (max-width: 640px) {
+  .logoTrisquel {
+    width: 55%;
+    margin-left: 45%;
+  }
 }
-
+@media only screen and (min-width: 641px) {
+  .logoTrisquel {
+    width: 45%;
+    margin-left: 15%;
+  }
+}
 /*Fin Logo Trisquel Imagen*/
 /*Botones Menu*/
 .botonMenu {
@@ -282,15 +292,5 @@ footer p {
   border: white solid 3px;
   padding: 10px;
 }
-
-/*Reseteo base*/
-* {
-  padding: 0;
-  margin: 0;
-}
-
-/*Fin Reseteo base*/
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.scss.map */
 
 /*# sourceMappingURL=style.css.map */
