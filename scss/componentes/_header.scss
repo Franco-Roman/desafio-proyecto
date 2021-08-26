@@ -11,16 +11,17 @@
 
 /*Logo Trisquel Imagen*/
 
-/*Mobile*/
+/*PC*/
 
-@media only screen and (max-width: 640px){
+@media only screen and (min-width: 641px){
 .logoTrisquel{
 width: 55%;
 margin-left: 45%;
 }
 }
 
-@media only screen and (min-width: 641px){
+/*Mobile*/
+@media only screen and (max-width: 640px){
     .logoTrisquel {
         width: 45%;
         margin-left: 15%;
