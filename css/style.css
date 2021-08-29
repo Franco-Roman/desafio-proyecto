@@ -58,6 +58,7 @@ div h5 {
 
 .imagenTrisquel {
   margin-bottom: 1.5%;
+  width: auto;
 }
 
 /* Fin Margen LOGO HISTORIA TRISQUEL*/
@@ -157,6 +158,7 @@ div div img {
     margin-left: 45%;
   }
 }
+/*PC y Tablet*/
 @media only screen and (min-width: 641px) {
   .logoTrisquel {
     width: 45%;
@@ -228,6 +230,7 @@ div div img {
 
 /*Ebook Imagen Diseño*/
 .ebookImagen {
+  width: 65%;
   margin: 0 0 10px 5px;
 }
 
@@ -292,5 +295,13 @@ footer p {
   border: white solid 3px;
   padding: 10px;
 }
+
+/*Reseteo base*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*Fin Reseteo base*/
 
 /*# sourceMappingURL=style.css.map */
