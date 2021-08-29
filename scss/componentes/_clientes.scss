@@ -14,8 +14,21 @@
 	margin: 0 0 10px 5px;
 }
 
+/* Mobile*/
 
-.opinionClientes {
-	margin: auto;
-	font-size: 25px;
+@media only screen and (max-width: 640px) {
+	.opinionClientes {
+	margin: 1%;
+	font-size: 15px;	
+	}
 }
+
+/*PC y Tablet*/
+
+@media only screen and (min-width: 641px) {
+	.opinionClientes {
+		margin: auto;
+		font-size: 25px;
+	}
+}
+

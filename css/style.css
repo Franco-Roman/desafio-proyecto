@@ -2,12 +2,7 @@
 /*Fuente incrustada*/
 @font-face {
   font-family: "averta-font";
-  src: url("../fuentes/AvertaDemoPECuttedDemo-Regular.otf");
-}
-/*Fuente incrustada*/
-@font-face {
-  font-family: "averta-font";
-  src: url("../fuentes/AvertaDemoPECuttedDemo-Regular.otf");
+  src: url("/fuentes/AvertaDemoPECuttedDemo-Regular.otf");
 }
 /*Fuentes titulos*/
 /*H1 H2 H3 */
@@ -223,11 +218,20 @@ div div img {
   margin: 0 0 10px 5px;
 }
 
-.opinionClientes {
-  margin: auto;
-  font-size: 25px;
+/* Mobile*/
+@media only screen and (max-width: 640px) {
+  .opinionClientes {
+    margin: 1%;
+    font-size: 15px;
+  }
 }
-
+/*PC y Tablet*/
+@media only screen and (min-width: 641px) {
+  .opinionClientes {
+    margin: auto;
+    font-size: 25px;
+  }
+}
 /*Ebook Imagen Diseño*/
 .ebookImagen {
   width: 65%;
@@ -245,10 +249,18 @@ footer {
   color: white;
 }
 
-.footerIndex {
-  position: fixed;
+/*Mobile y Tablet*/
+@media only screen and (max-width: 767px) {
+  .footerIndex {
+    margin: 0;
+  }
 }
-
+/*PC*/
+@media only screen and (min-width: 768px) {
+  .footerIndex {
+    position: fixed;
+  }
+}
 .icon {
   display: flex;
   justify-content: space-around;
@@ -271,6 +283,9 @@ footer {
 footer p {
   color: white;
   font-family: "averta-font";
+}
+footer .copyright {
+  margin: 0;
 }
 
 .redes {
