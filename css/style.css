@@ -261,6 +261,11 @@ footer {
     position: fixed;
   }
 }
+/*Footer especial Contenido arreglado*/
+.footerIndex2 {
+  position: fixed;
+}
+
 .icon {
   display: flex;
   justify-content: space-around;

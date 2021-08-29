@@ -13,20 +13,25 @@ footer {
 
 /*Mobile y Tablet*/
 
-@media only screen and (max-width: 767px){
-	.footerIndex{
-	margin: 0;
+@media only screen and (max-width: 767px) {
+	.footerIndex {
+		margin: 0;
 	}
+}
+
+/*PC*/
+
+@media only screen and (min-width: 768px) {
+	.footerIndex {
+		position: fixed;
 	}
-	
-	/*PC*/
-	
-	@media only screen and (min-width: 768px){
-		.footerIndex {
-			position: fixed;
-		}
-		}
-	
+}
+
+/*Footer especial Contenido arreglado*/
+.footerIndex2 {
+	position: fixed;
+	}
+
 .icon {
 	display: flex;
 	justify-content: space-around;
@@ -48,15 +53,15 @@ footer {
 
 }
 
-footer{ 
-p{
-color: white;
-font-family: 'averta-font';
-}
+footer {
+	p {
+		color: white;
+		font-family: 'averta-font';
+	}
 
-.copyright{
-margin: 0;	
-}
+	.copyright {
+		margin: 0;
+	}
 }
 
 
