@@ -57,6 +57,11 @@ div h5 {
 }
 
 /* Fin Margen LOGO HISTORIA TRISQUEL*/
+.historiaTrisquel {
+  font-family: "averta-font";
+  font-size: 1.2rem;
+}
+
 .tituloMapa {
   text-decoration: underline;
   font-size: 20px;
