@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*Fuente incrustada*/
 @font-face {
   font-family: "averta-font";
@@ -248,6 +249,11 @@ div div img {
 }
 
 /*Fin Ebook Imagen Diseño*/
+.linkDescarga {
+  color: #cf2bd0;
+  text-decoration: underline;
+}
+
 /*Footer*/
 /*Estilo Footers, para todos el mismo*/
 footer {
