@@ -356,6 +356,11 @@ h4 {
   font-weight: bold;
 }
 
+body {
+  background-color: #00091d;
+  text-align: center;
+}
+
 /* edits the page title */
 .page-title {
   padding: 3% 2% 0 2%;
