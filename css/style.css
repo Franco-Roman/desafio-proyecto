@@ -1,9 +1,5 @@
 @charset "UTF-8";
 /*Fuente incrustada*/
-@font-face {
-  font-family: "averta-font";
-  src: url("/fuentes/AvertaDemoPE-ExtraBold.otf");
-}
 /*Fuentes titulos*/
 /*H1 H2 H3 */
 h1, h2, h3 {
