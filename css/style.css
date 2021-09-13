@@ -6,7 +6,7 @@
 }
 /*Fuentes titulos*/
 /*H1 H2 H3 */
-h1, h3 {
+h1, h2, h3 {
   margin: 1% auto;
   text-decoration: underline;
   color: #cf2bd0;
@@ -68,12 +68,6 @@ div h5 {
   color: #cf2bd0;
   font-family: "Rubik", sans-serif;
   margin: 15px 10px 15px 5px;
-}
-
-/*Titulo Por que Trisquel*/
-.tituloHistoriaMarca {
-  color: #cf2bd0;
-  margin: 0% 0% 0% 0%;
 }
 
 /*Fin Mapa*/
