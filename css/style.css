@@ -7,7 +7,7 @@
 /*Fuentes titulos*/
 /*H1 H2 H3 */
 h1, h2, h3 {
-  margin: 1% auto;
+  margin: 3% auto;
   text-decoration: underline;
   color: #cf2bd0;
 }
@@ -363,11 +363,27 @@ body {
 
 /* edits the page title */
 .page-title {
-  padding: 17% 2% 0 2%;
+  padding: 5% 2% 0 2%;
   display: inline-block;
   color: #cf2bd0;
 }
 
+/*Mobile Imagen Franco Roman*/
+@media only screen and (max-width: 640px) {
+  .page-title {
+    padding: 16% 2% 0 2%;
+    display: inline-block;
+    color: #cf2bd0;
+  }
+}
+/*PC y Tablet Imagen Franco Roman*/
+@media only screen and (min-width: 641px) {
+  .page-title {
+    padding: 14% 2% 0 2%;
+    display: inline-block;
+    color: #cf2bd0;
+  }
+}
 .pt-img {
   width: 25vw;
 }

@@ -26,10 +26,34 @@ body {
 /* edits the page title */
 
 .page-title {
-    padding: 17% 2% 0 2%;
+    padding: 5% 2% 0 2%;
     display: inline-block;
     color: #cf2bd0;
 }
+
+
+
+/*Mobile Imagen Franco Roman*/
+
+@media only screen and (max-width: 640px) {
+    .page-title {
+        padding: 16% 2% 0 2%;
+        display: inline-block;
+        color: #cf2bd0;
+    }
+}
+
+/*PC y Tablet Imagen Franco Roman*/
+
+@media only screen and (min-width: 641px) {
+    .page-title {
+        padding: 14% 2% 0 2%;
+        display: inline-block;
+        color: #cf2bd0;
+    }
+}
+
+
 
 .pt-img {
     width: 25vw;
@@ -90,17 +114,17 @@ body {
     display: block;
 }
 
-.starter {  
- color: white;
+.starter {
+    color: white;
 }
 
-.gold {  
+.gold {
     color: rgb(231, 227, 3);
-   }
+}
 
-.premium {  
+.premium {
     color: white;
-   }
+}
 
 
 
