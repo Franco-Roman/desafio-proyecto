@@ -474,17 +474,7 @@ body {
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.3) inset;
 }
 
-.card-starter {
-  background-size: contain;
-}
-
-.card-gold {
-  background-image: url("http://imgfz.com/i/lcbNk0I.png");
-  background-size: contain;
-}
-
-.card-premium {
-  background-image: url("http://imgfz.com/i/lcbNk0I.png");
+.card-starter, .card-gold, .card-premium {
   background-size: contain;
 }
 
