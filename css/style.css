@@ -124,6 +124,10 @@ div div img {
 
 .buttonForm {
   margin-top: 1%;
+  color: white;
+  background-color: #cf2bd0;
+  border-color: #00050e;
+  border-radius: 20px;
 }
 
 /*Sección NOSOTROS y Boton Linkedin*/
