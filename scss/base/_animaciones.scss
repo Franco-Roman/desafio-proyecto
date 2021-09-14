@@ -1,5 +1,5 @@
 /*Efectos Menu*/
-.botonMenu, .buttonForm :hover{
+.botonMenu:hover{
 	animation: 2s;
 	animation-name: efectoMenu;
 	}
@@ -16,4 +16,27 @@
 	}
 	
 	}
+
+
+	.buttonForm:hover{
+		animation: 2s;
+		animation-name: efectoMenu;
+		}
+		
+		@keyframes efectoMenu{
+		
+		0%{ 
+		opacity: 0;
+		}
+	
+		100%{
+		opacity: 1;
+		background-color: black;
+		}
+		
+		}
+
+
+
+
 /*Efectos Menu*/

@@ -9,7 +9,21 @@ h1, h2, h3, h4 {
 }
 
 /*Efectos Menu*/
-.botonMenu, .buttonForm :hover {
+.botonMenu:hover {
+  animation: 2s;
+  animation-name: efectoMenu;
+}
+
+@keyframes efectoMenu {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    background-color: black;
+  }
+}
+.buttonForm:hover {
   animation: 2s;
   animation-name: efectoMenu;
 }
